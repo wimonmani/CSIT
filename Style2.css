@@ -27,20 +27,6 @@
    width: 70%;
 }
 
-@media screen and (max-width: 400px) {
-    .frame-calendar h3{
-        color: white;
-        font-size: 10px;
-    }
-    .frame-calendar nav{
-        text-align: center;
-        font-size: 10px;
-    }
-    .frame-calendar iframe{
-        width: 15em ;
-        margin-left: 4.5em;
-    }
-}
 @media screen and (min-width: 400px) and (max-width: 500px){
     .frame-calendar h3{
         color: white;

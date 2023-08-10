@@ -31,39 +31,7 @@ div section li{
     padding: 10px;
 }
 
-@media screen and (max-width: 400px) {
-    .professor{
-        padding: 0 20px;
-    }
-     .professor h3{
-        font-size: 10px;
-        padding-left: 10px;
-        font-weight: bold;
-        color: rgb(39, 85, 145);
-        border-bottom: 1px rgb(39, 85, 145) solid;
-     }
-    #profile{
-            height: 10em;
-            width: 5em;
-    }
-    .border{
-        padding-left:40%;
-        padding-right: 30px
-    }
-    #name{
-        font-size: 10px;
-    }
-    p{
-        font-size: 10px;
-    }
-    li{
-        font-size: 10px;
-    }
-    .contact #c{
-        padding-bottom: 10px;
-    }    
-    }
-    @media screen and (min-width: 400px) and (max-width: 500px){
+@media screen and (min-width: 400px) and (max-width: 500px){
         .professor{
             padding: 0 20px;
         }
@@ -95,7 +63,7 @@ div section li{
             padding-bottom: 10px;
         }    
     }
-    @media screen and (min-width: 600px) and (max-width: 1100px){
+@media screen and (min-width: 600px) and (max-width: 1100px){
         .professor{
             padding-left: 30px ;
             padding-right: 30px;

@@ -9,15 +9,15 @@
 }
 .frame-course h3{
     padding-left: 10px;
-    border-bottom: white 1px solid;
-    color: white;
+    border-bottom:  rgb(39, 85, 145)  1px solid;
+    color:  rgb(39, 85, 145);
     font-weight: normal;
 }
 .frame-course a{
     padding: 10px 10px;
     text-decoration: none;
     font-weight: bold;
-    color: black
+    color:  rgb(39, 85, 145) 
 }
 .frame-course a:hover{
     color: #e4b005;
@@ -30,7 +30,7 @@
 
 /*plan*/
 #black{
-    color: black;
+    color: rgb(39, 85, 145) ;
 }
 .frame-plan section{
     padding: 0 10px 0 10px;
@@ -50,7 +50,7 @@
     padding: 10px 10px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color:  rgb(39, 85, 145) ;
 }
 .frame-plan a:hover{
     color: #e4b005;
@@ -63,7 +63,7 @@
  
 /*rule*/
 section a{
-    color: black;
+    color:  rgb(39, 85, 145);
 }
 .rule section{
     padding-left: 10px;

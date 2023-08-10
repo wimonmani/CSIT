@@ -6,8 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.frame-calendar h3{
+}.frame-calendar h3{
     padding-left: 10px;
     border-bottom: rgb(39, 85, 145) 1px solid;
     color: rgb(39, 85, 145);

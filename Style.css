@@ -47,22 +47,6 @@ header {
     border-radius: 3px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-}
-nav ul li{
-    padding: 0px 20px;
-    list-style: none;
-}
-
 .sub-menu-1 {
     display: none;
 }
@@ -174,35 +158,18 @@ footer {
   }
 
 @media screen and (max-width: 400px) {
-    .menu-bar {
-        display: block;
-    }
-    .menu-bar ul li {
-        padding-top: 10px;
+    .sub-menu-1 {
         font-size: 10px;
     }
-    .navbar{
-        display: block;
-    }
-    .navbar ul{
-        display: none;
-    }
-    .navbar li{
-        padding-top: 10px;
-        font-size: 10px;
-    }
-    .navabar .sub-menu-1 {
-        font-size: 10px;
-    }
-    .navabar ul li .sub-menu-1 {
+    .sub-menu-1 ul li {
         position: relative;
         background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
-    .navabar .sub-menu-2 {
+    .sub-menu-2 {
         font-size: 10px;
     }
-    .navabar ul li .sub-menu-2 {
+    .sub-menu-2 ul li {
         position: relative;
         background-color: rgb(39, 85, 145);
         font-size: 10px;
@@ -229,36 +196,19 @@ footer {
   }
 
 @media screen and (min-width: 400px) and (max-width: 750px) {
-    .menu-bar {
-        display: block;
-    }
-    .menu-bar ul li {
-        padding-top: 10px;
-        font-size: 15px;
 
-    }
-    .navbar{
-        display: block;
-    }
-    .navbar ul{
-        display: none;
-    }
-    .navbar li{
-        padding-top: 10px;
+    .sub-menu-1 {
         font-size: 10px;
     }
-    .navabar .sub-menu-1 {
-        font-size: 10px;
-    }
-    .navabar ul li .sub-menu-1 {
+    .sub-menu-1 ul li {
         position: relative;
         background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
-    .navabar .sub-menu-2 {
+    .sub-menu-2 {
         font-size: 10px;
     }
-    .navabar ul li .sub-menu-2 {
+    .sub-menu-2  ul li  {
         position: relative;
         background-color: rgb(39, 85, 145);
         font-size: 10px;
@@ -284,16 +234,6 @@ footer {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1280px) {
-    .menu-bar {
-        display: block;
-    }
-    .menu-bar ul li {
-        padding-top: 10px;
-        font-size: 15px;      
-    }
-    .navbar li{
-        font-size: 20px;
-    }
     .sub-menu-1 .sub-menu-2 {
         font-size: 20px;
     }

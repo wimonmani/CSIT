@@ -1,0 +1,72 @@
+/*calender*/
+.frame-calendar section{
+    padding: 0 10px 0 10px;
+}
+.frame-calendar nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame-calendar h3{
+    padding-left: 10px;
+    border-bottom: rgb(39, 85, 145) 1px solid;
+    color: rgb(39, 85, 145);
+    font-weight: bold;
+}
+.frame-calendar a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(39, 85, 145);
+    font-weight: bold;
+}
+.frame-calendar a:hover{
+    color: #e4b005;
+}
+.frame-calendar iframe{
+   margin: 10px 15%;
+   height: 45em;
+   width: 70%;
+}
+
+@media screen and (max-width: 400px) {
+    .frame-calendar h3{
+        color: white;
+        font-size: 10px;
+    }
+    .frame-calendar nav{
+        text-align: center;
+        font-size: 10px;
+    }
+    .frame-calendar iframe{
+        width: 15em ;
+        margin-left: 4.5em;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .frame-calendar h3{
+        color: white;
+        font-size: 15px;
+    }
+    .frame-calendar nav{
+        text-align: center;
+        font-size: 12px;
+    }
+    .frame-calendar section iframe{
+        width: 20em ;
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1023px){
+    .frame-calendar h3{
+        font-size: 20px;
+    }
+    .frame-calendar a{
+        font-size: 20px;
+    }
+     .frame-calendar iframe{
+         height: 70em;
+         width: 35em ;
+         margin-left: 6em;
+     }    
+}
+    

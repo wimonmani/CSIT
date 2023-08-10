@@ -20,7 +20,7 @@ header {
     border-bottom: #dd6b36 solid ;
   }
 
-.menu-bar {
+  .menu-bar {
     background: rgb(39, 85, 145);
     text-align: center;
 }
@@ -174,6 +174,13 @@ footer {
   }
 
 @media screen and (max-width: 400px) {
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar ul li {
+        padding-top: 10px;
+        font-size: 10px;
+    }
     .navbar{
         display: block;
     }
@@ -189,8 +196,7 @@ footer {
     }
     .navabar ul li .sub-menu-1 {
         position: relative;
-        width: 100%;
-        background-color: black;
+        background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
     .navabar .sub-menu-2 {
@@ -198,8 +204,7 @@ footer {
     }
     .navabar ul li .sub-menu-2 {
         position: relative;
-        width: 100%;
-        background-color: black;
+        background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
     .news h2{
@@ -218,11 +223,20 @@ footer {
         font-size: 10px;
      }
      .contact{
-        margin-top: 17%;
+        margin-top: 5px;
+        font-size: 10px;
      }
   }
 
 @media screen and (min-width: 400px) and (max-width: 750px) {
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar ul li {
+        padding-top: 10px;
+        font-size: 15px;
+
+    }
     .navbar{
         display: block;
     }
@@ -230,7 +244,7 @@ footer {
         display: none;
     }
     .navbar li{
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 10px;
     }
     .navabar .sub-menu-1 {
@@ -238,8 +252,7 @@ footer {
     }
     .navabar ul li .sub-menu-1 {
         position: relative;
-        width: 100%;
-        background-color: black;
+        background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
     .navabar .sub-menu-2 {
@@ -247,8 +260,7 @@ footer {
     }
     .navabar ul li .sub-menu-2 {
         position: relative;
-        width: 100%;
-        background-color: black;
+        background-color: rgb(39, 85, 145);
         font-size: 10px;
     }
     .news h2{
@@ -271,7 +283,14 @@ footer {
      }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1100px) {
+@media screen and (min-width: 750px) and (max-width: 1280px) {
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar ul li {
+        padding-top: 10px;
+        font-size: 15px;      
+    }
     .navbar li{
         font-size: 20px;
     }
@@ -283,7 +302,7 @@ footer {
     }
     .news h5{
         font-size: 20px;
-        font-weight: normal;
+        font-weight: bold;
     }
     .news img{
         height: 30em;
